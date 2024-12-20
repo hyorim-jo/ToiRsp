@@ -1,0 +1,49 @@
+.high-score-title {
+    margin: 0px 0px 0px 10px; /* 상단과 좌우에 여백 */
+}
+
+.high-score-list::-webkit-scrollbar {
+    display: none; /* 웹킷 브라우저에서 스크롤바 숨김 */
+}
+.high-score-list {
+    -ms-overflow-style: none; /* IE 스크롤바 숨김 */
+    scrollbar-width: none; /* Firefox 스크롤바 숨김 */
+}
+
+.high-score-list {
+    overflow-x: auto; /* 가로 스크롤 허용 */
+    overflow-y: hidden; /* 세로 스크롤 제거 */
+    white-space: nowrap; /* 줄바꿈 방지 */
+    scroll-behavior: smooth; /* 부드러운 스크롤링 */
+
+    margin-bottom: 2%;
+}
+
+.high-score-item {
+    width: 200px; /* 고정된 너비 */
+    height: 50px;
+    flex-shrink: 0; /* 크기 고정 */
+
+    padding: 15px 0px 15px 15px;
+    margin: 10px 20px 0 0px;
+    display: inline-block; /* 한 줄에 표시 */
+
+    background-color: #ffd966;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 20px; 
+
+    text-align: left;
+}
+
+.high-score-name {
+margin: 0;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #444;
+}
+
+.high-score-score {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #666;
+}

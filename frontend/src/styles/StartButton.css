@@ -1,0 +1,23 @@
+/* 시작 버튼 */
+.start-button {
+    width: 100%;
+    height: auto;
+
+    margin: 5px;
+    padding-right: 4%;
+
+    background: none;
+    border: none;
+    cursor: pointer;
+
+    justify-content: flex-end;
+    display: flex;
+}
+
+.start-img {
+    width: 30%;
+    min-width: 300px;
+}
+.start-img:hover {
+    content: url('../assets/startHover.png'); /* hover 이미지 */
+}
