@@ -11,9 +11,11 @@ const StartButton = () => {
     };
     
     return (
-        <button className="start-button" onClick={handleClick}>
-            <img src={Start} className="start-img" alt="Start Button" />
-        </button>
+        <button className="start-button" >
+            <img src={Start} className="start-img" onClick={() => {
+            handleClick();  // 페이지 이동
+        }} alt="Start Button" />
+        </button>        
     );
 };
 
