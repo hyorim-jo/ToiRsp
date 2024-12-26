@@ -12,6 +12,8 @@
 
     justify-content: flex-end;
     display: flex;
+
+    cursor: default;
 }
 
 .start-img {
@@ -20,4 +22,5 @@
 }
 .start-img:hover {
     content: url('../assets/startHover.png'); /* hover 이미지 */
+    cursor: pointer;
 }
